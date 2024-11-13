@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(45deg, #6c5ce7, #00cec9);
+    color: white;
+    text-align: center;
+    padding: 48px 24px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+header a {
+    background-color: #0984e3;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+header a:hover {
+    background-color: #00cec9;
+}
+
+/* Section Styling */
+section {
+    padding: 48px 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 48px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6c5ce7;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+ul {
+    font-size: 20px;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 24px;
+}
+
+/* About Me Section */
+.about-content {
+    display: block;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(45deg, #6c5ce7, #00cec9);
+    margin-right: 24px;
+    float: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Education Section */
+.education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.education li {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 20px;
+    color: #333;
+}
+
+.contact a {
+    color: #0984e3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #00cec9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 32px 0;
+    background: #6c5ce7;
+    color: white;
+    font-size: 20px;
+    margin-top: 64px;
+}
+
+footer p {
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 48px 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 48px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    scroll-margin-top: 60px;
+}
